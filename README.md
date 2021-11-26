@@ -5,23 +5,20 @@ Description
 {Yummy Pizza is a web application that is used to show customers the types of pizzas available with different toppings and crust. The user is given an option of ordering a pizza through the application and all they need to fill in is the pizza size they want, topping, crust and their location incase they need delivery services. The user can order as many pizzas as they would want. A bill is provided at the end of the order.}
 
 Setup/Installation Requirements
-Clone the repo {git clone https://github.com/isaacwambu/Akan-Name-Generator.git }
-Make sure you have Chrome browser (recommended) or any other browser, reliable internet and a good computer.
-Go to the live link below and click on it.
-It will take you direct to the application.
-In the application you will see a form on the right side of the page which has provision for date of birth and gender.
-Fill in your date of birth and choose gender.
-Once this information is filled, hit the Generate button and an Akan name will be displayed based on the details you filled. That is your Akan name.
-NB:If you do not fill in correct values you will get message alerts asking you to fill in the correct details.
+* Clone the repo {git clone https://github.com/isaacwambu/Yummy-Pizza.git }
+* Make sure you have Chrome browser (recommended) or any other browser, reliable internet and a good computer.
+* Go to the live link below and click on it.
+* It will take you direct to the application.
+* The application will show you the different Pizzas available then you will get to make a decision on the pizza you would like. Incase you want to order online there will be a button written order.
+* once you hit the order button you will get a form where you will be required to fill based on the size of pizza, toppings and crust you want.
+* Incase you need delivery you will indicate and a bill will be generated for you. You can order as many pizzas as you can.
+
 https://isaacwambu.github.io/Akan-Name-Generator/
 Known Bugs
 {This application has no known bugs.}
 
 Technologies Used
-{This application uses HTML,CSS and JAVASCRIPT files. It was build using vs code and git. I used reset button in the htmls form to clear data from the form fields,
-tag in the html to word wrap my form then i used
-
-tag to create containers that i used to customise my application appearance using background image in the css file. I also used @media query to make my page responsive.}
+{This application uses HTML,CSS and JAVASCRIPT files. It was build using vs code and git. I used reset button in the htmls form to clear data from the form fields.
 Support and contact details
 {If you have any issues or questions on the application or you would like the application to be improved in a certain way, please do not hesitate to contact me via the email wachiraisaac4@gmail.com.}
 
