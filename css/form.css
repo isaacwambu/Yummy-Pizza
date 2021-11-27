@@ -1,10 +1,75 @@
-#slider{
-    overflow: hidden;
-}
-#slider figure{
-    position: relative;
-    width: 500%;
+*{
+    padding: 0;
     margin: 0;
-    left: 0;
-    animation: 20s slider infinite;
+}
+body{
+    background-image: url("https://images.unsplash.com/photo-1523878288860-7ad281611901?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTl8fHBsYWluJTIwaW1hZ2V8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60");
+}
+.my-form{
+    background-color: rgba(80, 80, 80, 0.4);
+    height: 100vh;
+    width: 50%;
+    margin: auto;
+    margin-top: 10%;
+    border-radius: 10px;
+    padding-top: 5%;
+}
+.pizza-order select{
+    background-color: white;
+    width: 64%;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 2%;
+    margin-top: 5%;
+    font-size: 1.5rem;
+    padding: 4%;
+}
+.pizza-order{
+    margin-left: 20%;
+   
+}
+.total-amount input{
+    width: 60%;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 2%;
+    margin-top: 5%;
+    font-size: 1.5rem;
+    padding: 2%;
+}
+.total-amount{
+    margin-left: 20%;
+   
+}
+
+.delivery input{
+    width: 60%;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 2%;
+    margin-top: 5%;
+    font-size: 1.5rem;
+    padding: 2%;
+}
+.delivery{
+    margin-left: 20%;
+   
+}
+
+
+.number input{
+    width: 60%;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 2%;
+    margin-top: 5%;
+    font-size: 1.5rem;
+    padding: 2%;
+}
+.number{
+    margin-left: %;
+   
 }
