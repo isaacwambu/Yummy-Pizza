@@ -5,16 +5,52 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="form.css">
+    <link rel="stylesheet" href="css/form.css">
 </head>
 <body>
-    <div id="slider">
-        <figure>
-            <img src="img/toppings/garlic.jpg" alt="">
-            <img src="img/toppings/hawaiian.jpg" alt="">
-            <img src="img/toppings/pepperoni.jpg" alt="">
-        </figure>
+    <div class="my-form">
+        <form action="">
+            <div class="pizza-order">
+                <select id="size" name="sizes" placeholder="size" required><br>
+                <option value="size">Sizes</option>
+                <option value="large">Large</option>
+                <option value="large">Medium</option>
+                <option value="large">Small</option>
+                </select>
+                
+                
+                
+                <select id="toppings" class="toppings" name="toppings" placeholder="toppings" required><br>
+                    <option value="toppings">Toppings</option>
+                    <option value="pepperoni">Pepperoni</option>
+                    <option value="hawaiian">Hawaiian</option>
+                    <option value="bbq">BBQ</option>
+                    <option value="garlic">Garlic</option>
+                    <option value="supreme">Supreme</option>
+                    </select>
 
+
+
+                    <select id="crust" name="crust" placeholder="crust" required><br>
+                        <option value="crust">Crust</option>
+                        <option value="cheese">Cheese</option>
+                        <option value="Cracker">Cracker</option>
+                        <option value="flatbread">Flatbread</option>
+                        <option value="stuffed">Stuffed</option>
+                        <option value="thin">Thin</option>
+                        </select>
+
+            <div class="number">
+                <input type="text" id="number" placeholder="number of pizza" required>
+            </div>
+            </div>
+            <div class="total-amount">
+                <input type="text" id="total" placeholder="total">
+            </div>
+            <div class="delivery">
+                <input type="text" id="delivery" placeholder="delivery">
+            </div>
+        </form>
     </div>
 </body>
 </html>
