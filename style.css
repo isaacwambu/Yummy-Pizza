@@ -1,0 +1,186 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: url("https://images.unsplash.com/photo-1523878288860-7ad281611901?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTl8fHBsYWluJTIwaW1hZ2V8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60");
+}
+.order{
+    float: right;
+}
+.blue{
+    color: white;
+    text-align: center;
+}
+.order a{
+    color: red;
+}
+.slide{
+    width: 80%;
+    background-color: grey;
+    margin-left: 10%;
+    border-radius: 10px;
+}
+.slide img{
+    padding: 3%;
+    width: 100%;
+    height: 500px;
+}
+.container{
+    display: flex;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+.float-left{
+    float: left;
+    margin-right: 5%;
+}
+.float-right{
+    float: right;
+}
+
+.pepperoni{
+    display: flex;
+    background-color: white;
+    border-radius: 10px;
+    margin-bottom: 5%;
+}
+.pepperoni img{
+    width: 100%;
+}
+.pepperoni-content{
+    width: 50%;
+}
+
+.supreme{
+    display: flex;
+    background-color: white;
+    border-radius: 10px;
+    margin-bottom: 5%;
+}
+.supreme img{
+    width: 100%;
+}
+.supreme-content{
+    width: 50%;
+}
+
+.hawaiian{
+    display: flex;
+    background-color: white;
+    border-radius: 10px;
+    margin-bottom: 5%;
+}
+.hawaiian img{
+    width: 100%;
+}
+.hawaiian-content{
+    width: 50%;
+}
+
+
+.bbq{
+    display: flex;
+    background-color: white;
+    border-radius: 10px;
+    margin-bottom: 5%;
+}
+.bbq img{
+    width: 100%;
+}
+.bbq-content{
+    width: 50%;
+}
+
+.garlic{
+    display: flex;
+    background-color: white;
+    border-radius: 10px;
+}
+.garlic img{
+    width: 100%;
+}
+.garlic-content{
+    width: 50%;
+}
+
+.cheese{
+    display: flex;
+    background-color: white;
+    border-radius: 10px;
+    margin-bottom: 5%;
+}
+.cheese img{
+    width: 90%;
+}
+.cheese-content{
+    width: 50%;
+}
+
+.cracker{
+    display: flex;
+    background-color: white;
+    border-radius: 10px;
+    margin-bottom: 5%;
+}
+.cracker img{
+    width: 90%;
+}
+.cracker-content{
+    width: 50%;
+}
+
+.flatbread{
+    display: flex;
+    background-color: white;
+    border-radius: 10px;
+    margin-bottom: 5%;
+}
+.flatbread img{
+    width: 90%;
+}
+.flatbread-content{
+    width: 50%;
+}
+
+.stuffed{
+    display: flex;
+    background-color: white;
+    border-radius: 10px;
+    margin-bottom: 5%;
+}
+.stuffed img{
+    width: 90%;
+}
+.stuffed-content{
+    width: 50%;
+}
+
+.thin{
+    display: flex;
+    background-color: white;
+    border-radius: 10px;
+}
+.thin img{
+    width: 90%;
+}
+.thin-content{
+    width: 50%;
+}
+
+.size{
+    display: flex;
+    width: 80%;
+    margin-left: 10%;
+    margin-bottom: 10%;
+}
+.large img{
+    width: 94%;
+}
+.medium img{
+    width: 90%;
+}
+
+.small img{
+    width: 89%;
+}
