@@ -58,22 +58,26 @@
                 <input type="text" id="number" placeholder="number of pizza" required>
             </div>
 
-            <p id="demo"></p>
+
             <div class="deliveryy">
                 <label for="deliver">Delivery: </label>
-                <input type="radio" name="deliver" value="Yes" checked>Yes</label>
+                <input type="radio" id="del" name="deliver" value="Yes" checked>Yes</label>
                 <label>
-                  <input class="no" type="radio" name="deliver" value="No">No</label>
+                  <input class="no" type="radio" id="del" name="deliver" value="No">No</label>
 
             </div>
-            </div>
-            <div class="delivery">
-                <input type="text" id="delivery" placeholder="delivery location">
+            <div class="deliver">
+                <select id="delivery" name="delivery" placeholder="Delivery Locations" required><br>
+                    <option class="first-select" value="" disabled selected hidden>Delivery Locations</option>
+                    <option value="within">Within Kahawa Sukari</option>
+                    <option value="5km after">Within 5km past Kahawa Sukari</option>
+                    <option value="beyond 5km">Beyond 5km past Kahawa Sukari</option>
+                </select>    
             </div>
 
-            <div class="total-amount">
-                <input type="text" id="total" placeholder="Total">
+
             </div>
+           
 
             <button type="submit" id="submit" class="submit" onclick="getVal()">Calculate</button>
             <button type="reset" id="reset" class="reset">Clear</button>
