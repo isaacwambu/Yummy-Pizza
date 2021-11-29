@@ -5,10 +5,6 @@ function getVal(){
   var pizzaCrust = document.getElementById("crust").value;
   var pizzaNumber = document.getElementById("number").value;
   var num = parseInt(pizzaNumber);
-
-  alert(num);
-
-  
   
   if(pizzaSize == "large"){
     var sizes = 300;
@@ -78,8 +74,34 @@ function getVal(){
   
   var final = num*total;
 
-  alert(final);
+  alert("You ordered: " + pizzaSize +" Pizza, with " +pizzaTopping + " topping and " +pizzaCrust + " crust. The number of Pizzas is: " +pizzaNumber + ". Your Total bill is: " +final + "/=");
 
-  
-  document.getElementById("demo").innerHTML = final;
+
+  var ans = document.getElementById("del").checked;
+
+  if(ans == true){
+    prompt("Please enter delivery location and phone number: ");
+  }
+  else{
+      alert("there will be no delivery for you. please do not fill the delivery box or else it will charge you.");
+  }
+
+  var delivery = document.getElementById("delivery").value;
+  if(delivery == "within"){
+    delivery = 200;
+    alert("Your delivery cost is: 200/=");
+  }
+  else if(delivery == "5km after"){
+    delivery = 300;
+    alert("YOur delivery cost is: 300/=");
+  }
+  else{
+    delivery = 0;
+    alert("We are sorry we do not deliver there.");
+  }
+
+  var totalWithDelivery = final + delivery;
+
+  alert("Your final cost with delivery is: " +totalWithDelivery);
+
 }
