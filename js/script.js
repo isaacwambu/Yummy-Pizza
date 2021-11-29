@@ -80,5 +80,6 @@ function getVal(){
 
   alert(final);
 
+  
   document.getElementById("demo").innerHTML = final;
 }

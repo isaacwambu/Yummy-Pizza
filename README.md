@@ -9,11 +9,11 @@ Setup/Installation Requirements
 * Make sure you have Chrome browser (recommended) or any other browser, reliable internet and a good computer.
 * Go to the live link below and click on it.
 * It will take you direct to the application.
-* The application will show you the different Pizzas available then you will get to make a decision on the pizza you would like. Incase you want to order online there will be a button written order.
+* The application will show you the different Pizzas available then you will get to make a decision on the pizza you would like. Incase you want to order   online there will be a button written order.
 * once you hit the order button you will get a form where you will be required to fill based on the size of pizza, toppings and crust you want.
 * Incase you need delivery you will indicate and a bill will be generated for you. You can order as many pizzas as you can.
 
-https://isaacwambu.github.io/Akan-Name-Generator/
+https://isaacwambu.github.io/Yummy-Pizza/
 Known Bugs
 {This application has no known bugs.}
 
