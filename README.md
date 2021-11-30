@@ -1,8 +1,13 @@
 {Yummy Pizza}
+
+
 {Yummy Pizza is a web application that is used to show customers the types of pizzas available with different toppings and crust. The user is given an option of ordering a pizza through the application and a bill is provided at the end of the order for them to pay}, {26th November 2021}
 By {ISAAC WAMBU WACHIRA}
+
+
 Description
 {Yummy Pizza is a web application that is used to show customers the types of pizzas available with different toppings and crust. The user is given an option of ordering a pizza through the application and all they need to fill in is the pizza size they want, topping, crust and their location incase they need delivery services. The user can order as many pizzas as they would want. A bill is provided at the end of the order.}
+
 
 Setup/Installation Requirements
 * Clone the repo {git clone https://github.com/isaacwambu/Yummy-Pizza.git }
@@ -14,6 +19,7 @@ Setup/Installation Requirements
 * Incase you need delivery you will indicate and a bill will be generated for you. You can order as many pizzas as you can.
 
 https://isaacwambu.github.io/Yummy-Pizza/
+
 Known Bugs
 {When you enter the location delivery and you include a location that is beyond 5km from Kahawa Sukari. The application will tell you that we do not deliver there and it will show you your final amount of pizza alone and it will tell you that we will call you. please not that we do not call people that we cannot deliver to so please ignore the statement.}
 
