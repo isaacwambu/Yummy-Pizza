@@ -15,7 +15,7 @@ Setup/Installation Requirements
 
 https://isaacwambu.github.io/Yummy-Pizza/
 Known Bugs
-{This application has no known bugs.}
+{When you enter the location delivery and you include a location that is beyond 5km from Kahawa Sukari. The application will tell you that we do not deliver there and it will show you your final amount of pizza alone and it will tell you that we will call you. please not that we do not call people that we cannot deliver to so please ignore the statement.}
 
 Technologies Used
 {This application uses HTML,CSS and JAVASCRIPT files. It was build using vs code and git. I used reset button in the htmls form to clear data from the form fields.
