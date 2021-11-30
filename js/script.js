@@ -83,25 +83,30 @@ function getVal(){
     prompt("Please enter delivery location and phone number: ");
   }
   else{
-      alert("there will be no delivery for you. please do not fill the delivery box or else it will charge you.");
+      alert("there will be no delivery for you.");
   }
 
-  var delivery = document.getElementById("delivery").value;
-  if(delivery == "within"){
-    delivery = 200;
+
+
+
+  var deliv = document.getElementById("delivery").value;
+ 
+  if(deliv == "within" && ans == true){
+    deliv = 200;
     alert("Your delivery cost is: 200/=");
   }
-  else if(delivery == "5km after"){
-    delivery = 300;
-    alert("YOur delivery cost is: 300/=");
+  else if(deliv == "5km after" && ans == true){
+    deliv = 300;
+    alert("Your delivery cost is: 300/=");
+    
   }
-  else{
-    delivery = 0;
+  else if(deliv == "beyond 5km" && ans == true){
+    deliv = 0;
     alert("We are sorry we do not deliver there.");
   }
+  else{
 
-  var totalWithDelivery = final + delivery;
-
-  alert("Your final cost with delivery is: " +totalWithDelivery);
-
+  }
+  var totalWithDelivery = final + deliv;
+  alert("Your final cost with delivery is: " +totalWithDelivery +"/= we will call you through the number you entered. If you did not enter phone number please reach us through the number at the bottom of the page.");
 }
