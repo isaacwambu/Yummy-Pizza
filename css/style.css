@@ -30,10 +30,9 @@ body{
 }
 .slide{
     margin-top: 2%;
-    width: 78%;
+    /* width: 100%; */
     height: 350px;
     background-image: url("../img/toppings/pepperoni.jpg");
-    margin-left: 10%;
     border-radius: 10px;
     animation: slide 20s infinite;
 }
