@@ -38,68 +38,71 @@
     </section>
 
     <!-- Form section -->
-    <section class="container bg-secondary rounded p-3 my-5">
-        <h2 class="text-center text-light">Please make your order here!</h2>
-            <form action="" class="text-center">
-                <div class="pizza-order" >
-                    <select id="size" class="px-5 py-1 mb-2 size" name="sizes" placeholder="size" required><br>
-                    <option value="size" class="first-select">Pizza Sizes</option>
-                    <option value="large">Large</option>
-                    <option value="large">Medium</option>
-                    <option value="large">Small</option>
-                    </select> <br>
-                    
-                    
-                    
-                    <select id="toppings" class="toppings px-5 py-1 mb-2 size" name="toppings" placeholder="toppings" required><br>
-                        <option value="toppings" class="first-select">Pizza Toppings</option>
-                        <option value="pepperoni">Pepperoni</option>
-                        <option value="hawaiian">Hawaiian</option>
-                        <option value="bbq">BBQ</option>
-                        <option value="garlic">Garlic</option>
-                        <option value="supreme">Supreme</option>
-                        </select><br>
-    
-    
-    
-                        <select id="crust" name="crust " class="px-5 py-md-1 mb-2 size" placeholder="crust" required><br>
-                            <option class="first-select" value="" disabled selected hidden>Pizza Crust</option>
-                            <option value="cheese">Cheese</option>
-                            <option value="Cracker">Cracker</option>
-                            <option value="flatbread">Flatbread</option>
-                            <option value="stuffed">Stuffed</option>
-                            <option value="thin">Thin</option>
+    <section class="container p-3">
+        <div class="container bg-secondary rounded p-3 my-5">
+            <h2 class="text-center text-light">Please make your order here!</h2>
+                <form action="" class="text-center">
+                    <div class="pizza-order" >
+                        <select id="size" class="px-5 py-1 mb-2 size" name="sizes" placeholder="size" required><br>
+                        <option value="size" class="first-select">Pizza Sizes</option>
+                        <option value="large">Large</option>
+                        <option value="large">Medium</option>
+                        <option value="large">Small</option>
+                        </select> <br>
+                        
+                        
+                        
+                        <select id="toppings" class="toppings px-5 py-1 mb-2 size" name="toppings" placeholder="toppings" required><br>
+                            <option value="toppings" class="first-select">Pizza Toppings</option>
+                            <option value="pepperoni">Pepperoni</option>
+                            <option value="hawaiian">Hawaiian</option>
+                            <option value="bbq">BBQ</option>
+                            <option value="garlic">Garlic</option>
+                            <option value="supreme">Supreme</option>
                             </select><br>
-    
-                <div class="number">
-                    <input type="text" id="number" placeholder="number of pizza" class="px-2 py-1 mb-2 size" required>
-                </div>
-    
-    
-                <div class="deliveryy mb-2">
-                    <label for="deliver">Delivery: </label>
-                    <input type="radio" id="del" name="deliver" value="Yes" checked>Yes</label>
-                    <label>
-                      <input class="no" type="radio" id="del" name="deliver" value="No">No</label>
-    
-                </div>
-                <div class="deliver">
-                    <select id="delivery" class="px-2 py-1 size" name="delivery" placeholder="Delivery Locations" required><br>
-                        <option class="first-select" value="" disabled selected hidden>Delivery Locations</option>
-                        <option value="within">Within Kahawa Sukari</option>
-                        <option value="5km after">Within 5km past Kahawa Sukari</option>
-                        <option value="beyond 5km">Beyond 5km past Kahawa Sukari</option>
-                    </select>   <br><br> 
-                </div>
-    
-    
-                </div>
-               
-    
-                <button type="reset" id="reset" class="reset px-3">Clear</button>
-                <button type="submit" id="submit" class="submit px-3" onclick="getVal()">Calculate</button>
-                
-            </form>
+        
+        
+        
+                            <select id="crust" name="crust " class="px-5 py-md-1 mb-2 size" placeholder="crust" required><br>
+                                <option class="first-select" value="" disabled selected hidden>Pizza Crust</option>
+                                <option value="cheese">Cheese</option>
+                                <option value="Cracker">Cracker</option>
+                                <option value="flatbread">Flatbread</option>
+                                <option value="stuffed">Stuffed</option>
+                                <option value="thin">Thin</option>
+                                </select><br>
+        
+                    <div class="number">
+                        <input type="text" id="number" placeholder="number of pizza" class="px-2 py-1 mb-2 size" required>
+                    </div>
+        
+        
+                    <div class="deliveryy mb-2">
+                        <label for="deliver">Delivery: </label>
+                        <input type="radio" id="del" name="deliver" value="Yes" checked>Yes</label>
+                        <label>
+                          <input class="no" type="radio" id="del" name="deliver" value="No">No</label>
+        
+                    </div>
+                    <div class="deliver">
+                        <select id="delivery" class="px-2 py-1 size" name="delivery" placeholder="Delivery Locations" required><br>
+                            <option class="first-select" value="" disabled selected hidden>Delivery Locations</option>
+                            <option value="within">Within Kahawa Sukari</option>
+                            <option value="5km after">Within 5km past Kahawa Sukari</option>
+                            <option value="beyond 5km">Beyond 5km past Kahawa Sukari</option>
+                        </select>   <br><br> 
+                    </div>
+        
+        
+                    </div>
+                   
+        
+                    <button type="reset" id="reset" class="reset px-3">Clear</button>
+                    <button type="submit" id="submit" class="submit px-3" onclick="getVal()">Calculate</button>
+                    
+                </form>
+        </div>
+
     </section>
 
 
